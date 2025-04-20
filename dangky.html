@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Optional: Your custom styles -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bg-dark d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+
+    <form class="bg-light p-5 rounded shadow" style="min-width: 300px;" action="">
+        <h2 class="text-center mb-4 text-primary">Register</h2>
+
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100" id="btn-register">Register</button>
+
+        <p class="text-center mt-3">Already have an account? <a href="./dangnhap.html">Login here</a></p>
+    </form>
+
+    <script type="module" src="./dangky.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
