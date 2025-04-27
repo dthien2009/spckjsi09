@@ -1,0 +1,27 @@
+.product {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+    gap: 16px;
+}
+
+.view-detail {
+    margin-top: 12px;
+    padding: 8px 16px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

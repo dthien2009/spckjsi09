@@ -16,12 +16,12 @@ btnButton.addEventListener("click", (e) => {
     signInWithEmailAndPassword(auth, emailValue, passwordValue)
         .then((userCredential) => {
             const user = userCredential.user;
-            alert(`${user.email} đã đăng nhập thành công!`);
+            alert(`${user.email} successfully logged in!`);
             console.log("Người dùng đã đăng nhập:", user);
             window.location.href = "index.html"; // Chuyển hướng về trang chính sau khi đăng nhập thành công
         })
         .catch((error) => {
-            alert(`Lỗi đăng nhập`);
-            console.log("Lỗi đăng nhập");
+            alert(`Login error`);
+            console.log("Login error");
         });
 });

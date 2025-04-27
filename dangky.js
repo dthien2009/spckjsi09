@@ -23,6 +23,6 @@ btnButton.addEventListener("click", (e) => {
             const errorCode = error.code;
             const errorMessage = error.message;
             // ..
-            alert(`${user.email} dang ky lai di loi roi`)
+            alert(`${user.email} register again error`)
         });
 })

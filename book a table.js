@@ -6,6 +6,7 @@ const datetimeInput = document.querySelector("#datetime")
 const select1 = document.querySelector("#select1")
 const message = document.querySelector("#message")
 const btnButton = document.querySelector("#add-button")
+const lsdbButton = document.querySelector("#lsdb-button")
 
 btnButton.addEventListener("click", async(e) => {
     e.preventDefault() //xoa di cai reload
@@ -21,6 +22,10 @@ btnButton.addEventListener("click", async(e) => {
         select1: select1Value,
         message: messageValue
     })
-    alert("dat ban thanh cong")
-    window.location.href = "index.html";
+    alert("Book a table successfully")
+})
+
+lsdbButton.addEventListener("click", async(e) => {
+    e.preventDefault() //xoa di cai reload
+    window.location.href = "lichsudatban.html";
 })
